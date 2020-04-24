@@ -61,7 +61,6 @@ input:focus{
 
 navigation{
     text-align: right;
-    font-size: 1.3em;
 }
 
 navigation ul{
@@ -83,6 +82,7 @@ navigation ul li{
     border-radius: var(--border-radius);
     padding: 2em;
     text-align: center;
+    padding-top: 35px;
 }
 
 .jumbotron #secondayContainer{
@@ -92,4 +92,32 @@ navigation ul li{
 #secondaryContainer{
     background-color: var(--primary);
     color: var(--text2);
+}
+
+#buttonOrange{
+    background-color: rgb(250, 100, 0);
+    border-color: transparent;
+    color: white;
+    box-shadow: var(--shadow);
+}
+
+#buttonOrange:hover{
+    background-color: rgb(250, 100, 0);
+    border-color: transparent;
+    color: white;
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.8);
+}
+
+#buttonOrange:active{
+    background-color: white;
+    border-color: transparent;
+    color: rgb(250, 100, 0);
+    box-shadow: var(--shadow);
+}
+
+.carouselArea{
+    margin-top: -2em;
+    background: rgba(207, 207, 207, 0.425);
+    display: grid;
+    grid-template-columns: 5% 70% 25%;
 }
